@@ -8,7 +8,7 @@ set guioptions-=T                 " Hide toolbar.
 set background=light              " Background.
 set lines=25 columns=100          " Window dimensions.
 
-colorscheme railscasts
+colorscheme railscasts-sexy
 
 set guioptions-=r                 " Don't show right scrollbar
 
