@@ -1,4 +1,4 @@
-me:     sexy-railscast vim colorscheme
+" Name:     sexy-railscast vim colorscheme
 " Modifier: Oguz Bilgic <fisyonet@gmail.com> 
 " Url:      https://github.com/oguzbilgic/sexy-railscasts-theme  
 " License:  public domain
