@@ -29,7 +29,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -39,11 +39,11 @@ export PATH=/home/arashbm/.rbenv/shims:/home/arashbm/.rbenv/bin:/usr/lib/lightdm
 eval "$(rbenv init - zsh)"
 
 # for vim mode
-bindkey -v
-function zle-line-init zle-keymap-select {
-    RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
-    RPS2=$RPS1
-    zle reset-prompt
-}
-zle -N zle-line-init
-zle -N zle-keymap-select
+# bindkey -v
+# function zle-line-init zle-keymap-select {
+    # RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
+    # RPS2=$RPS1
+    # zle reset-prompt
+# }
+# zle -N zle-line-init
+# zle -N zle-keymap-select
