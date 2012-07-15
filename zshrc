@@ -37,3 +37,13 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/home/arashbm/.rbenv/shims:/home/arashbm/.rbenv/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
 eval "$(rbenv init - zsh)"
+
+# for vim mode
+bindkey -v
+function zle-line-init zle-keymap-select {
+    RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
+    RPS2=$RPS1
+    zle reset-prompt
+}
+zle -N zle-line-init
+zle -N zle-keymap-select
