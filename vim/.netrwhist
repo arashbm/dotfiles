@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/arashbm/.oh-my-zsh/plugins/vi-mode'
 let g:netrw_dirhist_2='/home/arashbm/.oh-my-zsh/plugins'
 let g:netrw_dirhist_3='/home/arashbm/.oh-my-zsh/plugins/ant'
 let g:netrw_dirhist_4='/home/arashbm/.oh-my-zsh/plugins/vi-mode'
+let g:netrw_dirhist_5='/home/arashbm/code/gaah/spec/requests'
+let g:netrw_dirhist_6='/home/arashbm/code/gaah/spec'
+let g:netrw_dirhist_7='/home/arashbm/code/gaah/spec/routing'
+let g:netrw_dirhist_8='/home/arashbm/code/former/app/views/forms'

@@ -81,4 +81,4 @@ autocmd filetype markdown setlocal spell spelllang=en_us
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 " autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
-
+set thesaurus+=~/dotfiles/mthesaur.txt
